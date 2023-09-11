@@ -3,31 +3,32 @@
 
 This repository sets up an environment on CodeSpaces and uses GitHub Actions to run a Makefile for the following commands: make install, make test, make format, and make lint.
 
-Getting Started
+## Getting Started
 To set up the project, simply run make all or run make install and make test.
 
-Features
-Data Analysis
+## Features
+### Data Analysis
 Included is a Python script data_analysis.py that performs basic data analysis tasks:
 
-Reads a dataset from a CSV file
-Generates summary statistics like mean, median, and standard deviation
-Creates a histogram for a specified column in the dataset
-How to Use the Data Analysis Script
-Place your CSV file in the same directory as the script or update the file_path variable in the script to point to your CSV file.
-Run the script:
+- Reads a dataset from a CSV file
+- Generates summary statistics like mean, median, and standard deviation
+- Creates a histogram for a specified column in the dataset
 
-python3 data_analysis.py
+### How to Use the Data Analysis Script
+1. Place your CSV file in the same directory as the script or update the file_path variable in the script to point to your CSV file.
+2. Run the script:
 
-Check the output for summary statistics and look for the generated histogram image in the current directory.
+    **python3 data_analysis.py**
 
-Project Structure
-.devcontainer includes a Dockerfile and devcontainer.json. The Dockerfile within this folder specifies how the container should be built, and other settings in this directory may control development environment configurations.
-workflows includes GitHub Actions, which contain configuration files for setting up automated build, test, and deployment pipelines for your project.
-.gitignore is used to specify which files or directories should be excluded from version control when using Git.
-Makefile is a configuration file used in Unix-based systems for automating tasks and building software. It contains instructions and dependencies for compiling code, running tests, and other development tasks.
-README.md is the instruction file for the readers.
-requirements.txt is to specify the dependencies (libraries and packages) required to run the project.
-test_main.py is a test file for main.py that can successfully run in IDEs.
-main.py is a Python file that contains the main function.
-data_analysis.py is a Python script for basic data analysis tasks.
+3. Check the output for summary statistics and look for the generated histogram image in the current directory.
+
+## Project Structure
+- **.devcontainer** includes a Dockerfile and devcontainer.json. The **Dockerfile** within this folder specifies how the container should be built, and other settings in this directory may control development environment configurations.
+- **workflows** includes GitHub Actions, which contain configuration files for setting up automated build, test, and deployment pipelines for your project.
+- **.gitignore** is used to specify which files or directories should be excluded from version control when using Git.
+- **Makefile** is a configuration file used in Unix-based systems for automating tasks and building software. It contains instructions and dependencies for compiling code, running tests, and other development tasks.
+- **README.md** is the instruction file for the readers.
+- **requirements.txt** is to specify the dependencies (libraries and packages) required to run the project.
+- **test_main.py** is a test file for main.py that can successfully run in IDEs.
+- **main.py** is a Python file that contains the main function.
+- **data_analysis.py** is a Python script for basic data analysis tasks.
