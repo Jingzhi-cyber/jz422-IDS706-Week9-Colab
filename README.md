@@ -17,7 +17,7 @@ How to Use the Data Analysis Script
 Place your CSV file in the same directory as the script or update the file_path variable in the script to point to your CSV file.
 Run the script:
 
-python data_analysis.py
+python3 data_analysis.py
 
 Check the output for summary statistics and look for the generated histogram image in the current directory.
 
