@@ -12,6 +12,10 @@
 
 This repository sets up an environment on CodeSpaces and uses GitHub Actions to run a Makefile for the following commands: make install, make test, make format, and make lint.
 
+## YouTube Introduction Vedio
+Feel free to watch this vedio that explains the project and demonstrates its functionality.
+<https://youtu.be/Xpyrg53JXGQ?si=mVKgXC5WVqQ4UjUk>
+
 ## Getting Started
 To set up the project, simply run make all or run make install and make test.
 
