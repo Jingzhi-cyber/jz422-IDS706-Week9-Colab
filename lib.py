@@ -31,3 +31,13 @@ def data_visualization(input_df, input_column_name):
     plt.ylabel("Frequency")
     # plt.savefig(f"{input_column_name}_histogram.png")
     plt.show()
+
+
+# Create a data visualization and save it as png format
+def data_visualization_save(input_df, input_column_name):
+    plt.hist(input_df[input_column_name])
+    plt.title(f"Histogram of {input_column_name}")
+    plt.xlabel(input_column_name)
+    plt.ylabel("Frequency")
+    plt.savefig(f"{input_column_name}_histogram.png")
+    plt.show()

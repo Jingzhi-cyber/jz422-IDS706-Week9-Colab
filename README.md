@@ -1,4 +1,4 @@
-# IDS706-Python-Template
+# IDS706-Project1
 [![CI](https://github.com/Jingzhi-cyber/jz422-IDS706-Individual-Project1/actions/workflows/cicd.yml/badge.svg)](https://github.com/Jingzhi-cyber/jz422-IDS706-Individual-Project1/actions/workflows/cicd.yml)
 
 [![Install](https://github.com/Jingzhi-cyber/jz422-IDS706-Individual-Project1/actions/workflows/install.yml/badge.svg)](https://github.com/Jingzhi-cyber/jz422-IDS706-Individual-Project1/actions/workflows/install.yml)
@@ -17,7 +17,7 @@ To set up the project, simply run make all or run make install and make test.
 
 ## Features
 ### Data Analysis
-Included is a Python script data_analysis.py that performs basic data analysis tasks:
+Included are a Jupyter Notebook Descriptive_Statistics.ipynb and a Python script data_analysis.py that both perform basic data analysis tasks using Pandas:
 
 - Reads a dataset from a CSV file
 - Generates summary statistics like mean, median, and standard deviation
@@ -45,3 +45,10 @@ I get it from <https://people.sc.fsu.edu/~jburkardt/data/csv/csv.html>
 - **test_main.py** is a test file for main.py that can successfully run in IDEs.
 - **main.py** is a Python file that contains the main function.
 - **data_analysis.py** is a Python script for basic data analysis tasks.
+- **Descriptive_Statistics.ipynb** is a Jupyter Notebook with cells that perform descriptive statistics using Pandas.
+- **lib.py** is a python file that shares the common code between the script and notebook.
+- **test_lib** is a test file for lib.py.
+- **test_script** is a test file for data_analysis.py.
+
+
+
