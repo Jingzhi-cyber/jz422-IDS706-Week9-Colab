@@ -18,6 +18,7 @@ Feel free to watch this vedio that explains the project and demonstrates its fun
 
 ## Getting Started
 To set up the project, simply run make all or run make install and make test.
+![Alt text](image_make.png)
 
 ## Features
 ### Data Analysis
@@ -34,10 +35,16 @@ Included are a Jupyter Notebook Descriptive_Statistics.ipynb and a Python script
     **python3 data_analysis.py**
 
 3. Check the output for summary statistics and look for the generated histogram image in the current directory.
+![Alt text](image_terminal.png)
+
+![Alt text](Average_histogram.png)
+
+![Alt text](image_report.png)
 
 ## Test CSV File: hurricanes.csv
 
 I get it from <https://people.sc.fsu.edu/~jburkardt/data/csv/csv.html>
+![Alt text](image_csv.png)
 
 ## Project Structure
 - **.devcontainer** includes a Dockerfile and devcontainer.json. The **Dockerfile** within this folder specifies how the container should be built, and other settings in this directory may control development environment configurations.
