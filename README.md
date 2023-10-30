@@ -36,7 +36,7 @@ Included are a Jupyter Notebook Descriptive_Statistics.ipynb and a Python script
     **python3 data_analysis.py**
 
 3. Check the output for summary statistics and look for the generated histogram image in the current directory.
-![Alt text](image_terminal.png)
+![Alt text](image_data.png)
 
 ![Alt text](Average_histogram.png)
 
