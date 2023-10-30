@@ -1,20 +1,21 @@
-# IDS706-Project1
-[![CI](https://github.com/Jingzhi-cyber/jz422-IDS706-Individual-Project1/actions/workflows/cicd.yml/badge.svg)](https://github.com/Jingzhi-cyber/jz422-IDS706-Individual-Project1/actions/workflows/cicd.yml)
+# IDS706-Week9-Colab
+[![CI](https://github.com/Jingzhi-cyber/jz422-IDS706-Week9-Colab/actions/workflows/cicd.yml/badge.svg)](https://github.com/Jingzhi-cyber/jz422-IDS706-Week9-Colab/actions/workflows/cicd.yml)
 
-[![Install](https://github.com/Jingzhi-cyber/jz422-IDS706-Individual-Project1/actions/workflows/install.yml/badge.svg)](https://github.com/Jingzhi-cyber/jz422-IDS706-Individual-Project1/actions/workflows/install.yml)
+[![Install](https://github.com/Jingzhi-cyber/jz422-IDS706-Week9-Colab/actions/workflows/install.yml/badge.svg)](https://github.com/Jingzhi-cyber/jz422-IDS706-Week9-Colab/actions/workflows/install.yml)
 
-[![Test](https://github.com/Jingzhi-cyber/jz422-IDS706-Individual-Project1/actions/workflows/lint.yml/badge.svg)](https://github.com/Jingzhi-cyber/jz422-IDS706-Individual-Project1/actions/workflows/lint.yml)
+[![Test](https://github.com/Jingzhi-cyber/jz422-IDS706-Week9-Colab/actions/workflows/lint.yml/badge.svg)](https://github.com/Jingzhi-cyber/jz422-IDS706-Week9-Colab/actions/workflows/lint.yml)
 
-[![Format](https://github.com/Jingzhi-cyber/jz422-IDS706-Individual-Project1/actions/workflows/format.yml/badge.svg)](https://github.com/Jingzhi-cyber/jz422-IDS706-Individual-Project1/actions/workflows/format.yml)
+[![Format](https://github.com/Jingzhi-cyber/jz422-IDS706-Week9-Colab/actions/workflows/format.yml/badge.svg)](https://github.com/Jingzhi-cyber/jz422-IDS706-Week9-Colab/actions/workflows/format.yml)
 
-[![Lint](https://github.com/Jingzhi-cyber/jz422-IDS706-Individual-Project1/actions/workflows/test.yml/badge.svg)](https://github.com/Jingzhi-cyber/jz422-IDS706-Individual-Project1/actions/workflows/test.yml)
+[![Lint](https://github.com/Jingzhi-cyber/jz422-IDS706-Week9-Colab/actions/workflows/test.yml/badge.svg)](https://github.com/Jingzhi-cyber/jz422-IDS706-Week9-Colab/actions/workflows/test.yml)
 
 
 This repository sets up an environment on CodeSpaces and uses GitHub Actions to run a Makefile for the following commands: make install, make test, make format, and make lint.
 
-## YouTube Introduction Vedio
-Feel free to watch this vedio that explains the project and demonstrates its functionality.
-<https://youtu.be/Xpyrg53JXGQ?si=mVKgXC5WVqQ4UjUk>
+## Cloud-Hosted Notebook Data Manipulation
+Cloud-hosted Jupyter Notebook using Google Colab
+
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Jingzhi-cyber/jz422-IDS706-Week9-Colab/blob/main/Descriptive_Statistics.ipynb)
 
 ## Getting Started
 To set up the project, simply run make all or run make install and make test.
